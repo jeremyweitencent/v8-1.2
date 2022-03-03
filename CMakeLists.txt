@@ -219,3 +219,5 @@ add_executable(v8_cctest
 )
 target_include_directories(v8_cctest PRIVATE src)
 target_link_libraries(v8_cctest v8)
+
+# reference: https://blog.coderzh.com/2021/05/03/v8-2/
