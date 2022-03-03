@@ -2,7 +2,7 @@
 #include "v8.h"
 
 int main(int argc, char* argv[]) {
-  printf("hello v8\n");
+  printf("hello v8 @main.cc\n");
   bool init_result = v8::V8::Initialize();
   if (!init_result) {
     printf("v8 initialize failed\n");
